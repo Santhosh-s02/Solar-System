@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="03-style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white" href="#"><strong> Solar System</strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Planets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center ">
+        <h1 class="display-4">Welcome to the Solar System</h1>
+        <marquee behavior="" direction="">Explore the wonders of our cosmic neighborhood.</marquee>
+    </header>
+
+    <div class="container mt-4 col-md-7 m-auto">
+        <!-- Carousel -->
+        <div id="planetCarousel" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLX3kwP7Rvt1pgphT2j40gJVGmJefV4y0AQ&s" class="d-block w-100" alt="Planet 1" height="380px" >
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">MERCURY</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpnM6gbX4PMHasVvMp1rIa_uB6uuduE3ibw&s" class="d-block w-100" alt="Planet 2"height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">VENUS</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg" class="d-block w-100" alt="Planet 3" height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">EARTH</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/C454F5A6-536E-4C9F-AA6AF354BB85A85B_source.jpg?w=1200" class="d-block w-100" alt="Planet 4"height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">MARS</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/premium-photo/jupiter-planet-isolated-black-background_539007-363.jpg" class="d-block w-100" alt="Planet 5" height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">JUPITER</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/premium-photo/saturns-stunning-rings-vibrant-colors-captured-deep-space-generative-ai_166669-9284.jpg?semt=ais_hybrid" class="d-block w-100" alt="Planet 6" height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">SATRUN</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRij5fGDGq2k1KGY6F123zWQK16JcjlUiRNgRegF8G9JopfQM-4rHA69F1iQrndzMZoRdo&usqp=CAU" class="d-block w-100" alt="Planet 7" height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">NEPTUNE</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://science.nasa.gov/wp-content/uploads/2023/09/PIA01492-1.jpg?w=4096&format=jpeg" class="d-block w-100" alt="Planet 8" height="380px">
+                    <div class="carousel-caption">
+                        <p class="h1 text-white">URANUS</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg" class="d-block w-100" alt="moon"height="380px">
+                    <div class="carousel-caption  ">
+                        <p class="h1 text-white">THE MOON</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#planetCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#planetCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- FAQs Accordion -->
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <div class="accordion" id="faqAccordion1">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is the Solar System?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion1">
+                            <div class="card-body" >
+                                The solar system is a collection of celestial bodies including the Sun, planets, moons, and more.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How many planets are there?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion1">
+                            <div class="card-body">
+                                There are eight recognized planets in the solar system.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more FAQs as needed -->
+                </div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <div class="accordion" id="faqAccordion2">
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    What is a planet?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#faqAccordion2">
+                            <div class="card-body">
+                                A planet is a celestial body that orbits a star, is spherical in shape, and has cleared its orbit of other debris.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can humans live on other planets?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion2">
+                            <div class="card-body">
+                                Currently, humans cannot live on other planets, but Mars is a candidate for future exploration.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more FAQs as needed -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Vertical Cards for Beautiful Planets -->
+        <div class="row ">
+            <div class="col-sm-4 col-md-3 mt-4">
+                <div class="card planet-card">
+                    <img src="https://science.nasa.gov/wp-content/uploads/2023/09/PIA01492-1.jpg?w=4096&format=jpeg" class="card-img-top" alt="Beautiful Planet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Neptune</h5>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 mt-4">
+                <div class="card planet-card">
+                    <img src="https://img.freepik.com/premium-photo/saturns-stunning-rings-vibrant-colors-captured-deep-space-generative-ai_166669-9284.jpg?semt=ais_hybrid" class="card-img-top" alt="Beautiful Planet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Saturn</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 mt-4">
+                <div class="card planet-card">
+                    <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/3e4de4a8-c1f2-4c09-8967-56ecaaacf128/da2a2bd2-43c0-430f-878e-8a816618aae4.png" alt="Beautiful Planet 3" >
+                    <div class="card-body">
+                        <h5 class="card-title">Jupiter</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 m-auto mt-sm-4 mt-4">
+                <div class="card planet-card">
+                    <img src="https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1638882786/EducationHub/photos/sun-blasts-a-m66-flare.jpg" alt="Beautiful Planet 4" >
+                    <div class="card-body">
+                        <h5 class="card-title">Sun</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Cards for Earth, Moon, and Sun -->
+        <div class="row mt-4">
+            <div class="col-12 horizontal-card">
+                <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg" alt="Earth">
+                <div>
+                    <h5 class="text-white "><u>Mother Earth</u></h5>
+                    <p> Earth is the third planet from the Sun and the only known celestial body to support life. Its unique combination of land, water, and atmosphere creates a diverse range of ecosystems and climates. The planet is characterized by its vibrant blue oceans, lush green forests, and vast deserts. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 horizontal-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg" alt="Moon">
+                <div>
+                    <h5 class="text-white"><u>The Moon</u></h5>
+                    <p> The Moon is Earth's only natural satellite and is the fifth-largest moon in the solar system.The Moon's surface is covered in craters, mountains, and vast plains known as "maria," formed by ancient volcanic activity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 horizontal-card">
+                <img src="https://media.wired.com/photos/5e34cb4659ec8000083f9d4c/master/w_1600%2Cc_limit/photo_space_sun_2_GSFC_20171208_Archive_e000630.jpg" alt="Sun">
+                <div>
+                    <h5 class="text-white"><u>The Sun</u></h5>
+                    <p>The Sun is the star at the center of our solar system and is the primary source of energy for life on Earth. Composed mostly of hydrogen (about 74%) and helium (about 24%), it generates energy through nuclear fusion, converting hydrogen into helium and releasing vast amounts of light and heat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid mt-4 text-center bg-dark p-5 text-white">
+        <p>&copy; 2024 Solar System. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
